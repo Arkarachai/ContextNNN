@@ -18,7 +18,7 @@ We used variant calling from an individual with code HG002 using DeepVariant too
 
 We started our prototype using Keras and transitioned into TF2.0. We use functional API for the model rather than the sequential even though the current model does not include any branching because the functional API would allow us to expand our model into a more complex one later.
 
-We designed the model with basic Dense network rather than the CNN network because we do not try find motif of particular size within our 12-mer context. We start with four layers of network with twelve nodes in each layer and try to reach the highest possible accuracy in the training set. Then we trimmed the model down to two layers while keeping the same level of accuracy. The class weight was used to handle the imbalance data.
+We designed the model with basic Dense network rather than the CNN network because we do not try to find a motif of particular size within our 12-mer context. We start with four layers of network with twelve nodes in each layer and try to reach the highest possible accuracy in the training set. Then we trimmed the model down to two layers while keeping the same level of accuracy. The class weight was used to handle the imbalance data.
 
 ## Challenges I ran into
 
