@@ -1,5 +1,7 @@
 # ContextNNN (Context Nucleotide Neural Net)
 
+### The project win top 40 award! https://tensorflow.devpost.com/project-gallery
+
 ## Inspiration
 
 DNA sequencing and genotyping have been widely adopted as a critical component of medical diagnostic, prognostic, and drug development. In some critical diseases, knowing the genetic variant would lead to better therapeutic plan or saving life. Although, genotyping has been widely adopted, detecting or determining the correct form of the variant are challenging especially variants around the repetitive regions and segmental duplication. 
